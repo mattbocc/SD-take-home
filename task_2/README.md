@@ -1,5 +1,7 @@
 ## Task 2
 
+*You are not expected to finish Task 2. Get as far as you can, then use the section at the end of this README to note any difficulties and how you would continue with more time.*
+
 This task will build off some of the AnnotationDB API workflows from **Task 1** while expanding to biological curation work.
 
 You'll notice there's a file in `raw_data/mutations.tsv` in `task_2`. You will use this file to guide the construction of your PharmacoSet sample slot and mutation experiment.

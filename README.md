@@ -29,7 +29,7 @@ A biology background is not required for these tasks, but getting a rough unders
 | Ensembl gene ID | A stable identifier for a gene, e.g. `ENSG00000141510` (the ID for `TP53`). |
 | GENCODE | A reference catalogue of all human genes, with their Ensembl IDs, symbols and positions in the genome. |
 | Variant | A position where a cell line's DNA differs from the human reference genome. |
-| Mutation | Strictly, a variant that arose in the tumour rather than being inherited. In Task 2, 'mutation' is used loosely for every variant listed in `mutations.tsv`, as is common in cell line datasets, so some listed variants may be inherited rather than tumour-specific. |
+| Mutation | A variant that may be inherited or acquired. In Task 2, 'mutation' is used loosely for every variant listed in `mutations.tsv`, as is common in cell line datasets, so some listed variants may be inherited rather than tumour-specific. |
 
 ## Tasks
 
