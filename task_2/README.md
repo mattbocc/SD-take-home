@@ -77,6 +77,7 @@ In 2.2 and 2.3 you were tasked with creating a matrix where the columns were the
 - `rowData` (data.frame or DataFrame): one row per Ensembl ID, in the same order as the matrix rows. Include at least the Ensembl ID, the original symbol from the raw data, the GENCODE gene name, chromosome, start, end and strand.
 	- Save a copy of the gene table (TSV or RDS) as an output to submit.
 - `colData` (data.frame or DataFrame): one row per cell line, in the same order as the matrix columns, with at least a `sampleid` column. Row names should equal `sampleid`.
+	- *Note: the colData constructor requires a batchid. You can use NA for that in this case.*
 
 **2.5 Create the `SummarizedExperiment`**
 
