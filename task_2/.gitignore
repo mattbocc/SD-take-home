@@ -1,0 +1,10 @@
+*
+!.gitignore
+!raw_data
+!raw_data/*
+!README.md
+!scripts
+!scripts/*
+!outputs
+!outputs/*
+!placeholder.txt
